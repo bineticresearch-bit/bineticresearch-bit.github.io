@@ -61,6 +61,12 @@ svg {
   max-width: 100%;
 }
 
+svg {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+}
+
 img {
   height: auto;
 }
@@ -181,6 +187,9 @@ strong {
 }
 
 .utility-bar a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   color: #ffffff;
   font-weight: 600;
   text-decoration: none;
